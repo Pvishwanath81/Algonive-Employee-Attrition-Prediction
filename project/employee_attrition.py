@@ -367,7 +367,7 @@ print("Model Name:", best_model["Model"])
 print("Accuracy:", best_model["Accuracy"])
 print("Recall (Attrition=1):", best_model["Recall (Attrition=1)"])
 
-"""Based on the comparison, the Improved Random Forest model performed the best because it provided a good balance between accuracy and recall. It was able to identify more employees who are likely to leave compared to other models.
+"""Based on the comparison, the Improved Logistic Regression performed the best because it provided a good balance between accuracy and recall. It was able to identify more employees who are likely to leave compared to other models.
 
 Therefore, this model is the most suitable for real-world use.
 """
