@@ -1,13 +1,13 @@
 # Employee Attrition Prediction
 
-## 📌 Project Overview
+##  Project Overview
 This project predicts whether an employee is likely to leave a company (attrition) using machine learning.
 
 Employee attrition is a big problem for companies because losing employees increases cost and reduces productivity. So, the goal of this project is to identify employees who are at risk of leaving and understand the reasons behind it.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 I used an HR analytics dataset that contains employee information such as:
 - Age
 - Salary (MonthlyIncome)
@@ -21,7 +21,7 @@ The target column is:
 
 ---
 
-## 🔍 Data Preprocessing
+##  Data Preprocessing
 Before building models, I prepared the data:
 
 - Converted categorical values (Yes/No → 1/0)
@@ -34,7 +34,7 @@ Before building models, I prepared the data:
 
 ---
 
-## 📈 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 I analyzed the data using graphs to understand patterns:
 
@@ -46,7 +46,7 @@ I analyzed the data using graphs to understand patterns:
 
 ---
 
-## 🤖 Models Used
+##  Models Used
 
 ### 1. Logistic Regression
 - Simple baseline model
@@ -65,7 +65,7 @@ I analyzed the data using graphs to understand patterns:
 
 ---
 
-## ⚙️ Model Improvement
+##  Model Improvement
 
 The dataset is imbalanced (very few employees leave), so models were not detecting attrition properly.
 
@@ -76,7 +76,7 @@ This helps the model focus more on employees who leave.
 
 ---
 
-## 📊 Feature Importance
+##  Feature Importance
 
 Using Random Forest and Decision Tree, I identified the most important features:
 
@@ -88,7 +88,7 @@ Using Random Forest and Decision Tree, I identified the most important features:
 
 ---
 
-## 📉 Model Comparison
+##  Model Comparison
 
 I compared all models based on accuracy and recall:
 
@@ -101,11 +101,11 @@ I compared all models based on accuracy and recall:
 
 ---
 
-## 🏆 Best Model
+##  Best Model
 
 The best model is:
 
-👉 **Improved Random Forest**
+ **Improved Random Forest**
 
 Reason:
 - Good accuracy
@@ -114,7 +114,7 @@ Reason:
 
 ---
 
-## 💡 Business Recommendations
+##  Business Recommendations
 
 Based on insights:
 
@@ -127,7 +127,7 @@ These actions can reduce employee attrition.
 
 ---
 
-## 🧠 Conclusion
+##  Conclusion
 
 This project shows how machine learning can help companies predict employee attrition and take action early.
 
@@ -135,7 +135,7 @@ Even though accuracy is good, recall for attrition is still a challenge, which m
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas
@@ -146,7 +146,7 @@ Even though accuracy is good, recall for attrition is still a challenge, which m
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 - main.ipynb → Complete code
 - dataset.csv → Dataset used
@@ -154,7 +154,7 @@ Even though accuracy is good, recall for attrition is still a challenge, which m
 
 ---
 
-## 🙌 Final Note
+## Final Note
 
 This project helped me understand:
 - Data preprocessing
