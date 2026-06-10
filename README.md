@@ -1,4 +1,4 @@
-# Algonive-Employee-Attrition-Prediction
+# Employee Attrition Prediction
 
 ## 📌 Project Overview
 This project predicts whether an employee is likely to leave a company (attrition) using machine learning.
